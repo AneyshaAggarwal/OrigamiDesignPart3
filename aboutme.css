@@ -1,0 +1,29 @@
+body
+{
+    background: black;
+}
+
+h1
+{
+    padding-left: 550px;
+    color: blue;
+    background-color: pink;
+    border-style:double;
+    border-color: aqua;
+    font-family: fantasy;
+}
+
+.header
+{
+    border:solid;
+    border-color:cadetblue;
+    font-family: cursive;
+    color: white;
+    background: cadetblue;
+}
+
+.aboutme
+{
+    color: white;
+    font-size:large;
+}

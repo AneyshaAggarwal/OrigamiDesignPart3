@@ -1,0 +1,87 @@
+body
+{
+    background: black;
+}
+
+h1
+{
+    padding-left: 500px;
+    color: blue;
+    background-color: pink;
+    border-style:double;
+    border-color: aqua;
+    font-family: fantasy;
+}
+
+h3
+{
+    padding-left: 250px;
+}
+
+.header
+{
+    border:solid;
+    border-color:cadetblue;
+    font-family: cursive;
+    color: white;
+    background: cadetblue;
+}
+
+.instructions
+{
+    border:dotted;
+    border-color:cyan;
+    color: white;
+}
+
+.grid
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    font-family: monospace;
+    border:dotted;
+    border-color:cyan;
+    color: white;
+}
+
+.socialmedia
+{
+    display: flex;
+    justify-content:flex-end;
+}
+
+a:link
+{ 
+    color: darkblue; 
+} 
+
+a:visited
+{ 
+    color: purple; 
+}
+
+.projects
+{
+    border:solid;
+    border-color:white;
+    position: relative;
+}
+
+.projects p
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.projects:hover p
+{
+ opacity: 1;
+}
+
+.projects:hover img
+{
+ opacity: 0.20;
+}
